@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#d6e5d3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Course List"
+            android:background="#c3ccc7"/>
+
+
+        <ListView
+            android:id="@+id/courseList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"></ListView>
+        <TextView
+            android:id="@+id/addCourse"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:background="#47d890"
+            android:layout_margin="5dp"
+            android:text="Add Course"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
